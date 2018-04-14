@@ -1,0 +1,43 @@
+//Interface(인터페이스)
+- 일종의 추상 클래스.
+- 추상메서드와 상수만을 멤버로 가질 수 있다.
+
+interface 인터페이스 이름{
+	public static final 변수타입 변수명 = 값; 			// 상수
+	public abstract 반환타입 메서드이름(매개변수,){}		// 추상메서드
+}
+
+이 외의 구성요소를 가질 수 없다.
+모든 멤버변수는 public static final 이고, 이것을 생략해도 똑같다. (자동으로 public static final이 붙음)
+// 하나씩 빼도됨
+ex)
+public static final int a = 1;
+int a = 1;
+final int a = 1;
+static int a = 1;
+// 이처럼 변수타입앞에 아무거나 생략해도 다 똑같음.
+
+// 인터페이스는 다중 상속이 가능하다.
+// 인터페이스는 최고 조상이 없다.
+// class 클래스명 extends 인터페이스명 ? 			(error!)
+// class 클래스명 implements 인터페이스명 		( OK ! )
+// interface 인터페이스명 extends 인터페이스명 	( OK !)
+
+// 인터페이스를 상속하면, 인터페이스에 정의된 추상메서드를 반드시 완성해야한다.
+// 구현을 하게 되면 abstract를 빼야한다. (실제로 메서드가 정의되므로 더이상 abstract가 아니다.)
+public abstract 반환타입 메서드이름(){} 	//in interface)	
+->		
+public 반환타입 메서드이름 (){} 			//in class
+
+
+
+ // GUI (Graphic User Interface)
+ awt
+ swing 
+ 
+ 컨테이너 - 컴포넌트 
+사실 프래임 위에 컨텐트pane이 더 올려지고 그 위에 컴포넌트들이 올라감
+frame - contentpane - component 
+
+각각의 컴포넌트들의 사이즈와 레이아웃등을 설정해주어야함.
+ 

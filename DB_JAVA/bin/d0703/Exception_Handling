@@ -1,0 +1,20 @@
+// 예외처리(Exception handling)
+//
+
+ try{
+ 
+ }catch(){
+ 
+ }finally{
+ 
+ }
+ 
+ // finally : 예외의 발생여부와 관계없이 실행되어야 하는 코드를 넣는다.
+ // 선택적으로 사용할 수 있으며, try - catch - finally(맨마지막) 순으로 구성된다.
+ 
+ 
+ // 메서드에 예외 선언하기
+ void method() thorws ~{};
+ // throws 예외 1, 예외 2 ... {}
+ 
+ 

@@ -1,0 +1,8 @@
+예외발생시간:Mon Jul 03 13:30:51 KST 2017
+java.lang.ArithmeticException: / by zero
+	at d0703.ExceptionTest4.main(ExceptionTest4.java:17)
+예외메시지 : / by zero
+예외발생시간:Mon Jul 03 13:32:20 KST 2017
+java.lang.ArithmeticException: / by zero
+	at d0703.ExceptionTest4.main(ExceptionTest4.java:17)
+예외메시지 : / by zero

@@ -1,0 +1,15 @@
+// 여기서 CTv extends Tv;
+
+1.Tv t = new Tv();
+2.CTv ct = new  CTv();
+3.Tv t = new Ctv(); // 만들어지는 것은 CTv 클래스지만 실제로 쓸 수 있는 것은 Tv에 있는 것들만 쓸 수 있음. 
+4.CTv ct = new Tv(); // x 안됨 (만들어지는 것이 더 작으니까)
+
+1.t ->Tv[  ]
+2.ct ->CTv[  ]
+3.t ->CTv[  ] 
+각각 이런 방들을 참조하고(가리키고)있다고 보면 됨.
+즉, 
+
+자손타입 -> 조상타입 (Up casting): 형변환 생략가능
+자손타입 <- 조상타입 (Down casting) : 형변환 생략불가 
